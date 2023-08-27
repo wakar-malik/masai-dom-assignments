@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="displayText()">Show Quote in console</button>
+    <p id="quote">Talk is cheap Show me the code</p>
+  </body>
+</html>
+<script>
+  //write js here
+
+  function displayText() {
+    const para = document.getElementById("quote");
+
+    console.log(para.innerText);
+  }
+</script>
